@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(./imgs/120557787_p0.png);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+    .oj {
+        height: 100vh;
+        width: 100%;
+
+        background-image: linear-gradient(to top, #a73e0aaf, rgba(255, 255, 255, 0.322), #0000002c);
+        z-index: 1;
+    }
+
+    .sidebar {
+        background-color: rgba(235, 235, 235, 0.137);
+        height: 100vh;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-size: cover;
+        border-top-right-radius: .5rem;
+        position: fixed;
+
+
+    }
+
+    .sidebar img {
+        height: 25px;
+        width: 25px;
+        display: inline;
+    }
+}
+
+.nav {
+    width: 120vh;
+    height: 50px;
+    background-color: hsla(0, 0%, 0%, 0);
+    margin: auto;
+    justify-content: space-evenly;
+    display: flex;
+    justify-items: center;
+    z-index: 1;
+    transition: all 10s ease-in;
+
+}
+
+.nav a {
+    color: #a73e0a;
+    text-decoration: none;
+    font-size: 21px;
+    margin-top: 1rem;
+    height: fit-content;
+    width: fit-content;
+}
+
+.nav a:hover {
+    color: rgb(126, 82, 17);
+    transition: 500ms ease-in;
+}
+
+.er a {
+    background-color: aliceblue;
+    height: 100px;
+    width: 50px;
+}
+
+#con {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 11rem;
+    justify-content: space-between;
+}
+
+.oj #con {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin: 3em;
+    bottom: 5rem;
+}
+
+#con {
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+
+}
+
+#con img {
+    border-radius: 1rem;
+    border: 1px solid white;
+    margin: 1rem;
+    transition: all 0.3s;
+    height: 13em;
+}
+
+.lu {
+    background-image: linear-gradient(to top, #b16c0b, #b16c0b5d);
+    width: fit-content;
+    height: auto;
+}
+
+#con img:hover {
+    transition: 0.5s ease-out;
+
+
+}
+
+.ze {
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#con a:hover {
+    font-size: 1.5rem;
+    transition: ease-in-out 400ms;
+}
